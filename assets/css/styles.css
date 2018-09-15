@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 0px;
+    font: DroidSansMono;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: Droid Sans Mono;
+}
+
+.queryArea {
+    min-width: 100%;
+}
+
+.qCount {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#search {
+    padding-left: 0;
+    margin-left: 0, auto;
+}
+
+#load {
+    position: relative;
+    display: none;
+    left: 50%;
+    top: 50%;
+    margin: auto;
+}
+
+p {
+    font-size: medium;
+}
+
+.jumbotron p {
+    font-weight: 300;
+    font-size: 1.5em;
+    display: inline-block;
+    box-shadow: aliceblue;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    text-decoration: ghostwhite;
+    display: inline-block;
+    font-size: 1.4em;
+    border-radius: 0.4em;
+}
+
+.search {
+    margin: 0.3em;
+}
+
+#results li{    
+    list-style: none;
+    overflow: auto;
+}
+.list-left{
+float: left;
+width: 20%;
+padding-bottom: 10px;
+}
+
+.list-left img{
+    width:100%;
+}
+
+.list-right{
+    float:right;
+    width:78%;
+}
+
+/* Media Queries */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .jumbotron p {
+        font-size: 1.5em;
+    }
+    #query {
+        width: 90%;
+    }
+}
