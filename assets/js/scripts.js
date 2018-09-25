@@ -88,7 +88,7 @@ function getString(output) {
     </div>
     <div class="list-right">
     <a href="${output.href}"><h3>${output.title}</h3></a>
-    <p>By <span>${output.channelTitle}</span>on ${output.publishedAt}</p>
+    <p>By <span>${output.channelTitle}</span> on ${output.publishedAt}</p>
     <p>${output.description}</p>
     </div>
     `
